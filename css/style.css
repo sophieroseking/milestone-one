@@ -97,6 +97,47 @@ header {
     background-color: transparent;
 }
 
+/*----------------------------------------- footer*/
+
+footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #e50310;
+    height: auto;
+}
+
+#footer-deatils {
+    color: #fafafa;
+    font-size: 35px;
+}
+
+.social-links {
+    padding-bottom: 15px;
+    text-align: right;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px, 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 2.5;
+    text-align: center;
+    color: #fafafa;
+    background: #2c2c2c;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #d5b13c;
+    ;
+}
+
 /*----------------------------------------- Media queries*/
 
 @media (max-width: 992px) {
