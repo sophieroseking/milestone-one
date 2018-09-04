@@ -1,0 +1,137 @@
+body {
+    background-image: url(../assets/images/themonkees.jpg);
+    background-size: cover;
+    font-family: 'Righteous', cursive;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+}
+
+/*----------------------------------------Nav*/
+
+#nav {
+    margin: 0;
+    background-color: transparent;
+    height: 120px;
+
+}
+
+#nav li {
+    padding: 0;
+}
+
+.menu-item {
+    height: 250px;
+    text-align: center;
+    padding: 0;
+    background-image: url(../assets/images/vinyl.png);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+.menu-item a {
+    width: 100%;
+    text-decoration: none;
+    color: #525252;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 115px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+}
+
+.menu-item a:hover {
+    color: #e50310;
+    font-weight: bold;
+}
+
+.menu-item span {
+    display: block;
+    width: 100%;
+    padding-top: 0px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    color: #e50310;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+}
+
+.menu-item span:hover {
+    color: #348f15;
+    font-weight: bold;
+}
+
+
+/*----------------------------------------- Band title */
+
+.band-title-banner {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+    padding: 0;
+    height: 25vh;
+}
+
+.band-title-banner span {
+    color: #525252;
+    background-color: transparent;
+    font-size: 60px;
+}
+
+
+.band-name {
+    background-color: transparent;
+}
+
+/*----------------------------------------- Media queries*/
+
+@media (max-width: 992px) {
+    #nav {
+        height: 10vh;
+    }
+
+    .menu-item {
+        background-image: none;
+        background-color: #fafafa;
+        max-height: 80px;
+        font-size: 5vw;
+    }
+
+    .menu-item a {
+        margin: 0px;
+        text-align: center;
+        justify-content: center;
+        display: flex;
+
+    }
+
+    .menu-item span {
+        font-size: 5vw;
+    }
+
+    .band-title span {
+        font-size: 60px;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+    footer .social-links {
+        text-align: center;
+    }
+}
