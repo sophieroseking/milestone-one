@@ -2,6 +2,7 @@ body {
     background-image: url(../assets/images/themonkees.jpg);
     background-size: cover;
     font-family: 'Righteous', cursive;
+    padding-bottom: 85px;
 }
 
 header {
@@ -10,31 +11,45 @@ header {
     width: 100vw;
 }
 
+
+
+/*----------------------------------------General stylings*/
+
+.uppercase {
+    text-transform: uppercase;
+}
+
 /*----------------------------------------Nav*/
 
 #nav {
     margin: 0;
-    background-color: transparent;
-    height: 120px;
-
+    background-color: #fafafa;
+    min-height: 90px;
+    width: 100vw;
 }
 
 #nav li {
     padding: 0;
 }
 
+.menu-items {
+    width: 100vw;
+}
+
 .menu-item {
-    height: 250px;
+    height: 98%;
     text-align: center;
     padding: 0;
-    background-image: url(../assets/images/vinyl.png);
-    background-size: auto;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: none;
+    background-color: #fafafa;
+    margin-top: 30px;
+    font-size: 20px;
+
 
 }
 
 .menu-item a {
+    padding: 0;
     width: 100%;
     height: 100%;
     text-decoration: none;
@@ -46,9 +61,16 @@ header {
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
+    font-size: 20px;
+
 }
 
 .menu-item a:hover {
+    color: #e50310;
+    font-weight: bold;
+}
+
+.menu-item a:active {
     color: #e50310;
     font-weight: bold;
 }
@@ -74,57 +96,23 @@ header {
     font-weight: bold;
 }
 
+/*----------------------------------------- Social media bar */
 
-/*----------------------------------------- Band title */
-
-.band-title-banner {
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: rgba(255, 255, 255, 0.8);
-    margin: 0;
-    padding: 0;
-    height: 25vh;
-}
-
-.band-title-banner span {
-    color: #525252;
-    background-color: transparent;
-    font-size: 60px;
-}
-
-
-.band-name {
-    background-color: transparent;
-}
-
-/*----------------------------------------- footer*/
-
-footer {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    left: 0;
+.social-bar {
     background-color: #e50310;
     height: auto;
 }
 
-#footer-deatils {
-    color: #fafafa;
-    font-size: 30px;
-
-}
-
 .social-links {
-    padding-bottom: 15px;
-    text-align: right;
+    padding: 0;
+    text-align: center;
+    margin-top: 10px;
 }
 
 .social-links li a i {
     width: 32px;
     height: 32px;
-    padding: 12px, 0;
+    padding: 0px;
     border-radius: 50%;
     font-size: 13px;
     line-height: 2.5;
@@ -141,18 +129,184 @@ footer {
     ;
 }
 
+/*----------------------------------------- Band title */
+
+.band-title-banner {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+    padding: 0;
+    height: 25vh;
+    position: relative;
+    transform: translateY(50%);
+}
+
+.band-title-banner span {
+    color: #525252;
+    background-color: transparent;
+    font-size: 60px;
+}
+
+
+.band-name {
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.band-title-banner span:hover:active {
+    text-decoration: none;
+}
+
+/*----------------------------------------- About page */
+
+.about-the-band {
+    text-align: center;
+}
+
+#about-title {
+    padding: 0;
+}
+
+#about-title h2 {
+    background-color: rgba(32, 32, 32, 0.8);
+    color: #fafafa;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#about-title p {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+}
+
+#about-image-1 {
+    padding: 0;
+    margin: 0;
+}
+
+#about-image-1 img {
+    vertical-align: middle;
+    width: 100%;
+}
+
+#about-image-2 {
+    padding: 0;
+    margin: 0;
+}
+
+#about-image-2 img {
+    vertical-align: middle;
+    width: 100%;
+}
+
+#about-extra p {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 0;
+    font-size: inherit;
+}
+
+.back-to-top a {
+    color: #fafafa;
+    text-decoration: none;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+}
+
+.back-to-top a:hover {
+    color: #d5b13c;
+}
+
+.back-to-top a:active {
+    color: #d5b13c;
+    text-decoration: none;
+}
+
+/*----------------------------------------- Media */
+
+.videos {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+#video3 {
+    padding-bottom: 30px;
+}
+
+
+/*----------------------------------------- Contact form*/
+
+form {
+    padding-top: 20px;
+}
+
+form .btn {
+    background-color: #e50310;
+    color: #fafafa;
+    margin-top: 20px;
+    border: none;
+}
+
+form .btn:hover {
+    background-color: #ca0712;
+    color: #fafafa;
+}
+
+
+form p {
+    margin-top: 20px;
+    color: #fafafa;
+    background-color: rgba(0, 0, 0, 0.7);
+    text-align: center;
+}
+
+/*----------------------------------------- footer*/
+
+footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #e50310;
+    height: auto;
+}
+
+.footer-container {
+    padding-left: 0;
+}
+
+    #footer-deatils {
+    font-size: 5vw;
+    color: #fafafa;
+    text-align: center;
+}
+
 /*----------------------------------------- Media queries*/
 
-@media (max-width: 992px) {
+@media (min-width: 799px) {
+
+    section {
+        overflow-y: scroll;
+    }
+
     #nav {
-        height: 10vh;
+        height: 176px;
+        background-color: transparent;
     }
 
     .menu-item {
-        background-image: none;
-        background-color: #fafafa;
-        max-height: 80px;
-        font-size: 5vw;
+        background-image: url(../assets/images/vinyl.png);
+        background-color: transparent;
+        height: 100%;
+        background-size: 180px;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-top: 20px;
+        font-size: 2vw;
     }
 
     .menu-item a {
@@ -163,32 +317,64 @@ footer {
 
     }
 
-    .menu-item a:hover {
-        background-color: rgba(0, 0, 0, 0.1);
-    }
-
     .menu-item span {
-        font-size: 5vw;
+        font-size: inherit;
     }
 
     .band-title-banner {
-        position: relative;
-        transform: translateY(50%);
+        height: 15vh;
     }
 
     .band-title-banner span {
         font-size: 60px;
     }
 
-    footer {
+    .social-links {
         text-align: center;
     }
-
-    footer .social-links {
-        text-align: center;
+    .social-links li a i {
+        width: 60px;
+        height: 60px;
+        font-size: 35px;
+        line-height: 62px;
     }
+}
 
-    #footer-deatils {
-        font-size: 5vw;
-    }
+#about-extra {
+    margin: 0;
+    padding: 0;
+}
+
+#about-title p,
+#about-title h2 {
+    font-size: 2.1vw;
+}
+
+#about-image-1 img {
+    text-align: center;
+    width: 50vw;
+}
+
+.videos {
+    padding-bottom: 100px;
+}
+
+iframe,
+video {
+    width: 60vh !important;
+    height: 288px;
+}
+
+form {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 100px;
+}
+
+/*footer {
+    max-height: 75px;
+    position: fixed;
+}*/
+
+
 }
