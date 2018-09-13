@@ -98,35 +98,16 @@ header {
 
 /*----------------------------------------- Social media bar */
 
-.social-bar {
-    background-color: #e50310;
-    height: auto;
-}
 
-.social-links {
-    padding: 0;
-    text-align: center;
-    margin-top: 10px;
-}
 
-.social-links li a i {
-    width: 32px;
-    height: 32px;
-    padding: 0px;
-    border-radius: 50%;
-    font-size: 13px;
-    line-height: 2.5;
-    text-align: center;
+/*----------------------------------------- Alert */
+
+.alert-danger {
     color: #fafafa;
-    background: #2c2c2c;
-    transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-}
-
-.social-links li a i:hover {
-    background: #d5b13c;
-    ;
+    background-color: #e50310;
+    border-color: transparent;
+    border-radius: 0;
+    text-align: center;
 }
 
 /*----------------------------------------- Band title */
@@ -233,10 +214,10 @@ header {
     padding-bottom: 20px;
 }
 
-#video3 {
-    padding-bottom: 30px;
+.audio {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
-
 
 /*----------------------------------------- Contact form*/
 
@@ -280,9 +261,39 @@ footer {
 }
 
     #footer-deatils {
-    font-size: 5vw;
     color: #fafafa;
     text-align: center;
+}
+
+.social-bar {
+    background-color: #fafafa;
+    height: auto;
+}
+
+.social-links {
+    padding: 0;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 0px;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 2.5;
+    text-align: center;
+    color: #fafafa;
+    background: #2c2c2c;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+    background: #d5b13c;
+    ;
 }
 
 /*----------------------------------------- Media queries*/
@@ -338,7 +349,7 @@ footer {
         font-size: 35px;
         line-height: 62px;
     }
-}
+
 
 #about-extra {
     margin: 0;
@@ -364,6 +375,7 @@ video {
     width: 60vh !important;
     height: 288px;
 }
+
 
 form {
     margin-left: 30px;
