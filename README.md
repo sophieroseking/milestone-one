@@ -1,10 +1,11 @@
 The Monkees band website - Milestone project 1
 
-One or two paragraphs providing an overview of your project.
 
-Essentially, this part is your sales pitch.
+This is a four page website providing the band 'The Monkees' with a way to share their music and information about the band with their fans.
+This is a simple design, which uses the mobile-first approach. The colors used were picked from the background image of the band and was designed
+to easily guide users to the information the band wanted them to know. The band were keen to gain new followers on socail emdia, so a large, fixed social 
+media footer was used on each page. 
 
-This is a four page website providing the band with a way to share their music and information about the band with their fans.
 
 UX
 
@@ -17,6 +18,7 @@ As a user that enjoys band x, I would like to find a way to contact the band so 
 As a user, I like to follow my favourite bands on Instagram and Facebook so I can see what they are up to.
 
 As a user, I would like to see if there are any upcoming tour dates so I can book to go and see them.
+
 
 Client stories
 
@@ -36,52 +38,54 @@ This is in the project files here: milestone-one/assets/mockup/the-monkees-mocku
 Features
 
 Existing Features
-Social Media links - allows users who want to follow the band on social media to be able to quickly find the band's relevant social media pages, by clicking on them.
+Social Media links - allows users who want to follow the band on social media to be able to quickly find the band's relevant social media pages, by clicking on them. I used wfont awesome for the socail media bottons.
 Media page - allows users who are or aren't familiar with the band to listen to their music and watch one of their music videos. This allows users to decide if they like the sound of the band if they haven't heard them before, or gives existing fans a way to listen to some of their best hits.
-Contact form - 
-For some/all of your features, you may choose to reference the specific project files that implement them, although this is entirely optional.
+Contact form - allows users to contact the band by filling in the form. I did this using the Bootstrap forms component.
 
-In addition, you may also use this section to discuss plans for additional features to be implemented in the future:
 
 Features Left to Implement
-Another feature idea
+An idea I would like to include is a page or even a section of the homepage that allows users to see upcoming gig dates.
+
+
 Technologies Used
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-JQuery
-The project uses JQuery to simplify DOM manipulation.
+Bootstrap v3.7
+I used Bootstrap components for my nav bar and also made use of the column formatting to create my page using a mobile-first approach.
+
+Font awesome
+I used Font awesome for my social media icons
+
+Google fonts
+I wanted a 60's looking font to match the band's image, so used google fonts to acheive this.
+
+
 Testing
-In this section, you need to convince the assessor that you have conducted enough testing to legitimately believe that the site works well. Essentially, in this part you will want to go over all of your user stories from the UX section and ensure that they all work as intended, with the project providing an easy and straightforward way for the users to achieve their goals.
+I have tested the page using google developer tools, ensuring users get the best possible experience on all screen sizes.
 
-Whenever it is feasible, prefer to automate your tests, and if you've done so, provide a brief explanation of your approach, link to the test file(s) and explain how to run them.
+Navbar:
+Click on each navbar item to ensure it takes you to the right page.
 
-For any scenarios that have not been automated, test the user stories manually and provide as much detail as is relevant. A particularly useful form for describing your testing process is via scenarios, such as:
+Media items:
+I tested to make sure the links were properly embedded to the page and they played correctly.
 
 Contact form:
-Go to the "Contact Us" page
-Try to submit the empty form and verify that an error message about the required fields appears
-Try to submit the form with an invalid email address and verify that a relevant error message appears
-Try to submit the form with all inputs valid and verify that a success message appears.
-In addition, you should mention in this section how your project looks and works on different browsers and screen sizes.
+I tried to submit empty fields where they are required and verified that you get an erorr message.
+I filled in the form and submitted it to check it works
 
-You should also mention in this section any interesting bugs or problems you discovered during your testing, even if you haven't addressed them yet.
+I would like to add a feature that displays a message when the form has been submitted.
 
-If this section grows too long, you may want to split it off into a separate file and link to it from here.
 
 Deployment
-This section should describe the process you went through to deploy the project to a hosting platform (e.g. GitHub Pages or Heroku).
 
-In particular, you should provide all details of the differences between the deployed version and the development version, if any, including:
-
-Different values for environment variables (Heroku Config Vars)?
-Different configuration files?
-Separate git branch?
-In addition, if it is not obvious, you should also describe how to run your code locally.
+The website has been deployed via GitHub pages.
 
 Credits
 Content
-The text for section Y was copied from the Wikipedia article Z
+The text for the about page was copied from the Wikipedia page https://en.wikipedia.org/wiki/The_Monkees
+
 Media
-The photos used in this site were obtained from ...
+The videos and mp3 tracks used in this site were obtained from the Github repo provided by Code Institute.
+
 Acknowledgements
-I received inspiration for this project from X
+I received inspiration for this project from all of my lessons in front-end development so far.
