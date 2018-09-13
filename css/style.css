@@ -219,6 +219,11 @@ header {
     margin-bottom: 20px;
 }
 
+.videos h2,
+p {
+    color: #fafafa;
+}
+
 /*----------------------------------------- Contact form*/
 
 form {
@@ -263,6 +268,7 @@ footer {
     #footer-deatils {
     color: #fafafa;
     text-align: center;
+    background-color: #fafafa;
 }
 
 .social-bar {
