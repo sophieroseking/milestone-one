@@ -1,4 +1,4 @@
-#The Monkees band website - Milestone project 1
+# The Monkees band website - Milestone project 1
 
 
 This is a four page website providing the band 'The Monkees' with a way to share their music and information about the band with their fans.
@@ -7,9 +7,9 @@ to easily guide users to the information the band wanted them to know. The band 
 media footer was used on each page. 
 
 
-##UX
+## UX
 
-###User Stories
+### User Stories
 
 As a user I want to find some of the band’s videos and music so I can listen to and watch them.
 
@@ -20,7 +20,7 @@ As a user, I like to follow my favourite bands on Instagram and Facebook so I ca
 As a user, I would like to see if there are any upcoming tour dates so I can book to go and see them.
 
 
-###Client stories
+### Client stories
 
 As the band, we would like people to be able to see some of our music and videos so they reminisce about our old popular songs.
 
@@ -35,58 +35,58 @@ I made an original mockup of the design using Balsamiq. This gave me a good idea
 This is in the project files here: milestone-one/assets/mockup/the-monkees-mockup.bmpr
 
 
-##Features
+## Features
 
-###Existing Features
-Social Media links - allows users who want to follow the band on social media to be able to quickly find the band's relevant social media pages, by clicking on them. I used wfont awesome for the socail media bottons.
-Media page - allows users who are or aren't familiar with the band to listen to their music and watch one of their music videos. This allows users to decide if they like the sound of the band if they haven't heard them before, or gives existing fans a way to listen to some of their best hits.
-Contact form - allows users to contact the band by filling in the form. I did this using the Bootstrap forms component.
+### Existing Features
+#### Social Media links - allows users who want to follow the band on social media to be able to quickly find the band's relevant social media pages, by clicking on them. I used wfont awesome for the socail media bottons.
+#### Media page - allows users who are or aren't familiar with the band to listen to their music and watch one of their music videos. This allows users to decide if they like the sound of the band if they haven't heard them before, or gives existing fans a way to listen to some of their best hits.
+#### Contact form - allows users to contact the band by filling in the form. I did this using the Bootstrap forms component.
 
 
-###Features Left to Implement
+### Features Left to Implement
 An idea I would like to include is a page or even a section of the homepage that allows users to see upcoming gig dates.
 
 
-##Technologies Used
+## Technologies Used
 In this section, you should mention all of the languages, frameworks, libraries, and any other tools that you have used to construct this project. For each, provide its name, a link to its official site and a short sentence of why it was used.
 
-###Bootstrap v3.7
+### Bootstrap v3.7
 I used Bootstrap components for my nav bar and also made use of the column formatting to create my page using a mobile-first approach.
 
-###Font awesome
+### Font awesome
 I used Font awesome for my social media icons
 
-###Google fonts
+### Google fonts
 I wanted a 60's looking font to match the band's image, so used google fonts to acheive this.
 
 
-##Testing
+## Testing
 I have tested the page using google developer tools, ensuring users get the best possible experience on all screen sizes.
 I used the W3 verifier to check my code.
 
-###Navbar:
+### Navbar:
 Click on each navbar item to ensure it takes you to the right page.
 
-###Media items:
+### Media items:
 I tested to make sure the links were properly embedded to the page and they played correctly.
 
-###Contact form:
+### Contact form:
 I tried to submit empty fields where they are required and verified that you get an erorr message.
 I filled in the form and submitted it to check it works
 
 I would like to add a feature that displays a message when the form has been submitted.
 
 
-##Deployment
+## Deployment
 
 The website has been deployed via GitHub pages.
 
-##Credits
-###Content
+## Credits
+### Content
 The text for the about page was copied from the Wikipedia page https://en.wikipedia.org/wiki/The_Monkees
 
-###Media
+### Media
 The videos and mp3 tracks used in this site were obtained from the Github repo provided by Code Institute.
 
-###Acknowledgements
+### Acknowledgements
 I received inspiration for this project from all of my lessons in front-end development so far.
