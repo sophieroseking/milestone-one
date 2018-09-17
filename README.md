@@ -38,9 +38,9 @@ This is in the project files here: milestone-one/assets/mockup/the-monkees-mocku
 ## Features
 
 ### Existing Features
-#### Social Media links - allows users who want to follow the band on social media to be able to quickly find the band's relevant social media pages, by clicking on them. I used wfont awesome for the socail media bottons.
-#### Media page - allows users who are or aren't familiar with the band to listen to their music and watch one of their music videos. This allows users to decide if they like the sound of the band if they haven't heard them before, or gives existing fans a way to listen to some of their best hits.
-#### Contact form - allows users to contact the band by filling in the form. I did this using the Bootstrap forms component.
+** Social Media links ** - allows users who want to follow the band on social media to be able to quickly find the band's relevant social media pages, by clicking on them. I used wfont awesome for the socail media bottons.
+** Media page ** - allows users who are or aren't familiar with the band to listen to their music and watch one of their music videos. This allows users to decide if they like the sound of the band if they haven't heard them before, or gives existing fans a way to listen to some of their best hits.
+** Contact form ** - allows users to contact the band by filling in the form. I did this using the Bootstrap forms component.
 
 
 ### Features Left to Implement
