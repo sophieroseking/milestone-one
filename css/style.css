@@ -119,7 +119,6 @@ header {
     margin: 0;
     padding: 0;
     height: 25vh;
-    position: relative;
     transform: translateY(50%);
 }
 
@@ -154,12 +153,19 @@ header {
     color: #fafafa;
     margin-bottom: 0;
     margin-top: 0;
+    font-size: xx-large;
 }
 
-#about-title p {
+.band-history .content {
+    padding: 0;
+}
+
+.band-history p {
     background-color: rgba(255, 255, 255, 0.8);
     margin: 0;
     color: #525252;
+    padding: 0;
+    font-size: xx-large;
 }
 
 #about-image-1 {
@@ -205,22 +211,42 @@ header {
     text-decoration: none;
 }
 
+.side-bar-left h3 {
+    color: #fafafa;
+}
+
+.side-bar-left img {
+    width: 100%;
+}
+
 /*----------------------------------------- Media */
 
-.videos {
+.media {
     text-align: center;
     padding-top: 30px;
     padding-bottom: 20px;
 }
 
 .audio {
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin: 0;
 }
 
-.videos h2,
+.media h2,
 p {
-    color: #fafafa;
+    color: #525252;
+}
+
+.audio {
+    background-color: #fafafa;
+}
+
+#video1 {
+    position: relative;
+    transform: translateY(50%);
+}
+
+.video1 {
+    transform: translateY(50%);
 }
 
 /*----------------------------------------- Contact form*/
@@ -314,11 +340,11 @@ footer {
     }
     
     .alert-danger {
-        font-size: 6vw;
+        font-size: 4vw;
     }
 
     #nav {
-        height: 176px;
+        height: 20vw;
         background-color: transparent;
     }
 
@@ -326,11 +352,11 @@ footer {
         background-image: url(../assets/images/vinyl.png);
         background-color: transparent;
         height: 100%;
-        background-size: 180px;
+        background-size: 20vw;
         background-position: center;
         background-repeat: no-repeat;
         margin-top: 20px;
-        font-size: 2vw;
+        font-size: 5vw;
     }
 
     .menu-item a {
@@ -338,6 +364,7 @@ footer {
         text-align: center;
         justify-content: center;
         display: flex;
+        font-size: 2vw;
 
     }
 
@@ -370,35 +397,36 @@ footer {
     }
 
     #about-title h2 {
-        margin-top: 30px;
+        margin-top: 75px;
     }
 
     #about-title p {
         font-size: 2.1vw;
-        margin: 30px 50px;
+        margin: 0;
 
     }
 
     #about-image-1 img {
         text-align: center;
         width: 50vw;
-        margin-top: 30px;
+        margin: 0;
+        margin-top: 20px;
     }
 
-    .videos {
+    .media {
         padding-bottom: 100px;
     }
 
     iframe,
     video {
-        width: 60vh !important;
+        width: 100% !important;
         height: 288px;
     }
 
 
     form {
-        margin-left: 30px;
-        margin-right: 30px;
+        margin-left: 100px;
+        margin-right: 100px;
         margin-top: 100px;
     }
 
