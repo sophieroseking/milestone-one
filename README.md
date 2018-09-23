@@ -34,8 +34,8 @@ As the band, we would like people to know that we are able to be booked for part
 I made an original mockup of the design using Balsamiq. This gave me a good idea of where I wanted to position certain things, although I changed this a lot during the process of creating the website.
 You can fond the whole files here: [https://github.com/sophieroseking/milestone-one/tree/master/assets/mockup]
 
-![Mockup screenshot1](milestone-one/assets/mockup/screenshot1.png "Mockup screenshot1")
-![Mockup screenshot2](milestone-one/assets/mockup/screenshot2.png "Mockup screenshot2")
+![Mockup screenshot1](https://github.com/sophieroseking/milestone-one/blob/master/assets/mockup/screenshot1.png "Mockup screenshot1")
+![Mockup screenshot2](https://github.com/sophieroseking/milestone-one/blob/master/assets/mockup/screenshot2.png "Mockup screenshot2")
 
 
 
