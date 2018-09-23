@@ -120,12 +120,13 @@ header {
     padding: 0;
     height: 25vh;
     transform: translateY(50%);
+    overflow: unset;
 }
 
 .band-title-banner span {
     color: #525252;
     background-color: transparent;
-    font-size: 60px;
+    font-size: 50px;
 }
 
 
@@ -242,7 +243,7 @@ p {
 
 #video1 {
     position: relative;
-    transform: translateY(50%);
+    margin-top: 250px;
 }
 
 /*----------------------------------------- Contact form*/
@@ -331,16 +332,22 @@ footer {
 
 @media (min-width: 799px) {
 
+    body {
+        padding-bottom: 250px;
+    }
+
     section {
         overflow-y: scroll;
     }
-    
+
     .alert-danger {
         font-size: 4vw;
+        padding: 0;
+        margin: 0;
     }
 
     #nav {
-        height: 20vw;
+        height: 17vw;
         background-color: transparent;
     }
 
@@ -348,7 +355,7 @@ footer {
         background-image: url(../assets/images/vinyl.png);
         background-color: transparent;
         height: 100%;
-        background-size: 20vw;
+        background-size: 17vw;
         background-position: center;
         background-repeat: no-repeat;
         margin-top: 20px;
@@ -373,7 +380,7 @@ footer {
     }
 
     .band-title-banner span {
-        font-size: 60px;
+        font-size: 100px;
     }
 
     .social-links {
@@ -386,6 +393,9 @@ footer {
         line-height: 62px;
     }
 
+    .col-md-4 {
+        transform: translateY(40%);
+    }
 
     #about-extra {
         margin: 0;
@@ -413,10 +423,14 @@ footer {
         padding-bottom: 100px;
     }
 
+    #video1 {
+        margin-top: 0;
+    }
+
     iframe,
     video {
-        width: 100% !important;
-        height: 288px;
+        padding-bottom: 150px;
+        padding-top: 0;
     }
 
 
@@ -424,6 +438,18 @@ footer {
         margin-left: 100px;
         margin-right: 100px;
         margin-top: 100px;
+    }
+    
+    form p {
+        font-size: 30px;
+    }
+    
+    form .btn {
+        font-size: 30px;
+    }
+    
+    .form-control {
+        font-size: 30px;
     }
 
 }
