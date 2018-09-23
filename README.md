@@ -32,7 +32,11 @@ As the band, we would like people to know that we are able to be booked for part
 
 
 I made an original mockup of the design using Balsamiq. This gave me a good idea of where I wanted to position certain things, although I changed this a lot during the process of creating the website.
-This is in the project files here: milestone-one/assets/mockup/the-monkees-mockup.bmpr
+You can fond the whole files here: [https://github.com/sophieroseking/milestone-one/tree/master/assets/mockup]
+
+![alt text](milestone-one/assets/mockup/screenshot1 "Mockup screenshot")
+![alt text](milestone-one/assets/mockup/screenshot2 "Mockup screenshot")
+
 
 
 ## Features
@@ -80,10 +84,11 @@ I would like to add a feature that displays a message when the form has been sub
 ## Deployment
 
 The website has been deployed via GitHub pages.
+[https://sophieroseking.github.io/milestone-one/]
 
 ## Credits
 ### Content
-The text for the about page was copied from the Wikipedia page https://en.wikipedia.org/wiki/The_Monkees
+The text for the about page was copied from the Wikipedia page [https://en.wikipedia.org/wiki/The_Monkees]
 
 ### Media
 The videos and mp3 tracks used in this site were obtained from the Github repo provided by Code Institute.
